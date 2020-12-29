@@ -1,6 +1,6 @@
 CountDownTimer('12/25/2021', 'countdown');
 
- CountDownTimer('12/29/2020 10:05 PM', 'HourCountdown');
+ CountDownTimer('12/29/2020 10:07 PM', 'HourCountdown');
 
  CountDownTimer('12/25/2021', 'countExpire');
 
@@ -39,11 +39,8 @@ CountDownTimer('12/25/2021', 'countdown');
              clearInterval(timer);
 
              document.getElementById(id).innerHTML = '솔크 축';
-
-<html>
- <audio autoplay controls> <source src="https://user310413.github.io/HTML/chms.mp3" type="audio/mp3"> </audio>
-          </html>
-
+var audio = new Audio('https://user310413.github.io/HTML/chms.mp3');
+audio.play();
 </body>
           
           
