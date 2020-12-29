@@ -1,4 +1,3 @@
-var audio = new Audio('https://user310413.github.io/HTML/chms.mp3');
 
 
 CountDownTimer('12/25/2021', 'countdown');
@@ -43,7 +42,7 @@ CountDownTimer('12/25/2021', 'countdown');
 
              document.getElementById(id).innerHTML = '솔크 축';
 
-document.getElementById('Audio').play();
+
 
 </body>
           
