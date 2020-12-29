@@ -51,10 +51,6 @@ CountDownTimer('12/25/2021', 'countdown');
     
 </script>
 
-<body>
-    <input type="button" onclick="audio.play();" value="PLAY"> <!--재생-->
-    <input type="button" onclick="audio.pause();" value="PAUSE"> <!--일시정지-->
-
 </body>
           
           
