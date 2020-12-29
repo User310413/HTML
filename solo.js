@@ -40,6 +40,25 @@ CountDownTimer('12/25/2021', 'countdown');
 
              document.getElementById(id).innerHTML = '솔크 축';
 
+<script>
+    var audio = new Audio('https://user310413.github.io/HTML/chms.mp3');
+
+    /*추가된 부분: 종료되면 처음부터 다시 재생*/
+    audio.addEventListener('ended', function() { 
+        this.currentTime = 0;
+        this.play();
+    }, false);
+    
+</script>
+
+<body>
+    <input type="button" onclick="audio.play();" value="PLAY"> <!--재생-->
+    <input type="button" onclick="audio.pause();" value="PAUSE"> <!--일시정지-->
+
+</body>
+          
+          
+          
              return;
 
          }
