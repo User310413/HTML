@@ -1,10 +1,12 @@
+// timer.js 
 
+ 
 
-CountDownTimer('01/01/2021', 'countdown');
+ CountDownTimer('12/25/2019', 'countdown');
 
- CountDownTimer('01/01/2021 00:00 AM', 'HourCountdown');
+ CountDownTimer('1/1/2021 0:00 M', 'HourCountdown');
 
- CountDownTimer('12/25/2021', 'countExpire');
+ CountDownTimer('2/19/2019', 'countExpire');
 
 
 
@@ -42,12 +44,6 @@ CountDownTimer('01/01/2021', 'countdown');
 
              document.getElementById(id).innerHTML = '새해복많이받으세요!';
 
-
-
-</body>
-          
-          
-          
              return;
 
          }
