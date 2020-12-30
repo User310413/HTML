@@ -2,7 +2,7 @@
 
  CountDownTimer('12/25/2019', 'countdown');
 
- CountDownTimer('3/19/2019 5:00 PM', 'HourCountdown');
+ CountDownTimer('1/1/2020 0:00 AM', 'HourCountdown');
 
  CountDownTimer('2/19/2019', 'countExpire');
 
