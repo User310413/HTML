@@ -1,8 +1,8 @@
 
 
-CountDownTimer('12/25/2021', 'countdown');
+CountDownTimer('01/01/2021', 'countdown');
 
- CountDownTimer('12/29/2020 10:07 PM', 'HourCountdown');
+ CountDownTimer('01/01/2021 00:00 AM', 'HourCountdown');
 
  CountDownTimer('12/25/2021', 'countExpire');
 
@@ -40,7 +40,7 @@ CountDownTimer('12/25/2021', 'countdown');
 
              clearInterval(timer);
 
-             document.getElementById(id).innerHTML = '솔크 축';
+             document.getElementById(id).innerHTML = '새해복많이받으세요!';
 
 
 
