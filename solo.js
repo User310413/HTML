@@ -1,10 +1,10 @@
  
 
- CountDownTimer('12/25/2019', 'countdown');
+ CountDownTimer('01/01/2021', 'countdown');
 
  CountDownTimer('1/1/2021 0:00 AM', 'HourCountdown');
 
- CountDownTimer('2/19/2019', 'countExpire');
+ CountDownTimer('1/1/2021', 'countExpire');
 
 
 
